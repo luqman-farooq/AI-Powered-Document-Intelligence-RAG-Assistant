@@ -1,0 +1,75 @@
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Private data and local vector stores
+data/
+*.faiss
+*.pkl
+*.pickle
+*.sqlite3
+*.db
+
+# Backups and audit artifacts
+backup*/
+*.bak
+*.backup
+*_backup*
+*_audit.txt
+PROJECT_AUDIT.txt
+PROJECT_REVIEW.zip
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+security-backup-*/
+security-backup-final/
+apply_security_patch.py
+patch_app_upload_security.py
+apply_all_security.py
+
+# Local backups and temporary security scripts
+security-backup-*/
+security-backup-final/
+*.backup*
+*.before-*
+*.sourcebackup
+*.webbackup
+*_audit.txt
+PROJECT_REVIEW.zip
+final_security_check.py
+apply_security_patch.py
+apply_all_security.py
+patch_app_upload_security.py
+
+# Local backups and temporary security scripts
+app/*backup*
+app/*.before-*
+app/app_before_*.py
+src/*backup*
+src/*.before-*
+src/*.datebackup
+src/*.fullbackup
+desktop_app.py.before_*
+final_security_check.py
+apply_security_patch.py
+apply_all_security.py
+patch_app_upload_security.py
+security-backup-*/
+security-backup-final/
+PROJECT_AUDIT.txt
+PROJECT_REVIEW.zip
+*_audit.txt
